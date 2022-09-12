@@ -1,0 +1,26 @@
+.language-picker {
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: 1;
+}
+
+.language-picker input[type=radio] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+.language-picker input[type=radio] + label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 21px;
+  color: #58595B;
+}
+.language-picker input[type=radio]:checked + label {
+  text-decoration: underline;
+}
+
+.language-picker > label:first-of-type {
+  margin-right: 9px;
+}
+
+/*# sourceMappingURL=LanguagePicker.css.map */
