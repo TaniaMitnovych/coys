@@ -1,0 +1,42 @@
+.brand-name {
+  width: 166px;
+}
+.brand-name > .brand-name__letter {
+  height: 38px;
+}
+.brand-name > .brand-name__letter:first-child {
+  margin-right: 13px;
+}
+.brand-name > .brand-name__letter:nth-child(2) {
+  margin-right: 9.6px;
+}
+.brand-name > .brand-name__letter:nth-child(3) {
+  margin-right: 11px;
+}
+
+@media (max-width: 375px) {
+  .brand-name {
+    width: 100px;
+  }
+  .brand-name > .brand-name__letter {
+    height: 23px;
+  }
+  .brand-name > .brand-name__letter:first-child {
+    margin-right: 7.8px;
+  }
+  .brand-name > .brand-name__letter:nth-child(2) {
+    margin-right: 5.7px;
+  }
+  .brand-name > .brand-name__letter:nth-child(3) {
+    margin-right: 6.4px;
+  }
+}
+.brand-name {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: absolute;
+  padding: 0 15px;
+}
+
+/*# sourceMappingURL=BrandName.css.map */
