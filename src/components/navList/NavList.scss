@@ -1,0 +1,17 @@
+@import '../../vars.scss';
+.nav-list{
+  display:flex;
+  list-style: none;
+  &__item>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $headers-font-family;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color:$main-dark-color;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+}
