@@ -1,6 +1,4 @@
 .language-picker {
-  display: flex;
-  flex-wrap: nowrap;
   z-index: 1;
 }
 
