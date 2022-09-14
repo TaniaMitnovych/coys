@@ -14,7 +14,7 @@
   margin-right: 11px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   .brand-name {
     width: 100px;
   }
