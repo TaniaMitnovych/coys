@@ -1,0 +1,44 @@
+@import '../../vars';
+
+.footer{
+  height: 90px;
+  background-color: $main-light-color;
+  color: $main-dark-color;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  left:0;
+  display: flex;
+  align-items: center;
+  margin: 0 23px;
+  border-top: 1px solid $main-dark-color;
+  &>ul{
+    display: flex;
+    padding-bottom: 10px;
+  }
+  &__social-list li{
+    width: 17px;
+    margin-right: 19px;
+    
+  }
+  &__usefull-links-list{
+    margin-left: 13px;
+    font-family: $headers-font-family;
+    text-transform: uppercase;
+    font-size:12px ;
+    overflow-x: auto;
+    letter-spacing: 0.2em;
+  };
+  &__usefull-links-item{
+    margin-right: 32px;
+    &>a{
+      white-space: nowrap;
+      color:$main-dark-color;
+    }
+
+  }
+  &__to-top-button{
+    margin-left: auto;
+    margin-right: 12px;
+  }
+}
