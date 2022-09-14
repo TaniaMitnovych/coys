@@ -13,6 +13,8 @@
   color: #58595B;
   font-size: 12px;
   margin: 0 10px 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .header__button {
@@ -61,7 +63,7 @@
   margin: 0 15px 0 25px;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1150px) {
   .nav-list,
 .language-picker,
 .header > a {
@@ -73,6 +75,9 @@
   }
   .header__menu-button {
     display: block;
+  }
+  .header__bag-button {
+    margin-right: 25px;
   }
 }
 

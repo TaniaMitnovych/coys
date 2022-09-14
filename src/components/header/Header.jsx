@@ -11,7 +11,7 @@ import LanguagePicker from '../languagePicker/LanguagePicker';
 const Header = (props) => {
   const {t}=useTranslation();
   return (
-    <div className='header'>
+    <div className='header' id="header">
       <button type='button' className='header__button header__menu-button'><img src={menuIcon} alt='menu button'/></button>
       <NavList/>
       <BrandName/>
