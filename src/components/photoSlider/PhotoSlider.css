@@ -18,6 +18,8 @@
 }
 .photoslider .indicators {
   margin-top: -15vh !important;
+  position: relative;
+  z-index: 2;
 }
 .photoslider .indicators > li {
   margin: 10px !important;
