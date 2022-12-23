@@ -1,0 +1,46 @@
+.image-menu {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.image-menu li {
+  width: 50%;
+  position: relative;
+}
+.image-menu li:hover .image-menu__text {
+  background-color: #58595B;
+  color: #fff;
+}
+.image-menu__image {
+  width: 100%;
+}
+.image-menu a {
+  color: #58595B;
+}
+.image-menu__text {
+  position: absolute;
+  z-index: 2;
+  text-transform: uppercase;
+  font-size: 24px;
+  background-color: #fff;
+  letter-spacing: 0.3em;
+  padding: 15px 30px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 575px) {
+  .image-menu {
+    flex-direction: column;
+  }
+  .image-menu li {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=ImageMenu.css.map */
