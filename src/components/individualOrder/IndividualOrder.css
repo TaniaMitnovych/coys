@@ -1,0 +1,126 @@
+.individual-order {
+  padding: 50px 140px;
+  color: #58595B;
+  font-family: "Montserrat", sans-serif;
+}
+.individual-order h2 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+}
+.individual-order hr {
+  border-top: 1px solid #58595B;
+}
+.individual-order__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.individual-order__about {
+  width: 40%;
+  max-width: 800px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+.individual-order__form {
+  width: 30%;
+  min-width: 300px;
+}
+.individual-order__input {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+.individual-order__input input {
+  width: 60%;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #dfdbd4;
+  background: #efede9;
+  font-size: 16px;
+  outline: none;
+}
+.individual-order__input button {
+  background: #f0ded0;
+  font-size: 14px;
+  font-weight: 300;
+  height: 100%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  height: 50px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .individual-order {
+    padding: 50px 40px;
+  }
+  .individual-order__content {
+    display: grid;
+    grid-template-columns: 100px auto;
+    justify-content: stretch;
+  }
+  .individual-order__about {
+    width: 100%;
+  }
+  .individual-order__form {
+    grid-column: 1/3;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .individual-order__input {
+    width: 100%;
+  }
+  .individual-order__input input {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .individual-order {
+    padding: 50px 20px;
+  }
+  .individual-order h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .individual-order__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .individual-order__about {
+    text-align: center;
+    order: -1;
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .individual-order__form button {
+    font-size: 10px;
+    height: 42px;
+  }
+  .individual-order__form input {
+    font-size: 11px;
+    height: 40px;
+    padding: 0 12px;
+  }
+  .individual-order__form p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=IndividualOrder.css.map */
