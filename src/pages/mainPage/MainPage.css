@@ -1,0 +1,18 @@
+.mainpage {
+  position: relative;
+}
+
+.image-menu.deals li div {
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  .image-menu.deals {
+    flex-direction: column;
+  }
+  .image-menu.deals li {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=MainPage.css.map */
