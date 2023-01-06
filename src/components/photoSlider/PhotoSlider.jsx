@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import photo1 from '../../images/photo1.png';
-import photo2 from '../../images/photo2.png';
-import photo3 from '../../images/photo3.png';
-import photo4 from '../../images/photo4.png';
+import photo1 from '../../assets/images/photo1.png';
+import photo2 from '../../assets/images/photo2.png';
+import photo3 from '../../assets/images/photo3.png';
+import photo4 from '../../assets/images/photo4.png';
 import 'react-slideshow-image/dist/styles.css';
 import './PhotoSlider.css';
 import { Slide } from 'react-slideshow-image';

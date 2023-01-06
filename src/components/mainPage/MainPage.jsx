@@ -3,11 +3,11 @@ import Banner from '../banner/Banner';
 import ImageMenu from '../imageMenu/ImageMenu';
 import PhotoSliderPC from '../photoSlider/PhotoSlider';
 import './MainPage.css';
-import man from '../../images/man.jpeg';
-import woman from '../../images/woman.png';
-import news from '../../images/news.jpg';
-import sale from '../../images/sale.jpeg';
-import bestsellers from '../../images/bestsellers.jpg';
+import man from '../../assets/images/man.jpeg';
+import woman from '../../assets/images/woman.png';
+import news from '../../assets/images/news.jpg';
+import sale from '../../assets/images/sale.jpeg';
+import bestsellers from '../../assets/images/bestsellers.jpg';
 import { useTranslation } from 'react-i18next';
 import IndividualOrder from '../individualOrder/IndividualOrder';
 

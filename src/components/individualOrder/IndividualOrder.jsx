@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import logo from '../../logo/coys_logo_colorline.svg';
+import logo from '../../assets/logo/coys_logo_colorline.svg';
 import './IndividualOrder.css';
 const IndividualOrder = () => {
   const { t } = useTranslation();

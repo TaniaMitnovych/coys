@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import instagramLogo from '../../logo/instagram_logo.svg';
-import facebookLogo from '../../logo/facebook_logo.svg';
-import arrowTop from '../../logo/arrow_top.svg';
+import instagramLogo from '../../assets/logo/instagram_logo.svg';
+import facebookLogo from '../../assets/logo/facebook_logo.svg';
+import arrowTop from '../../assets/logo/arrow_top.svg';
 import './Footer.css';
 
 const Footer = () => {

@@ -3,9 +3,9 @@ import BrandName from '../brandName/BrandName';
 import NavList from '../navList/NavList';
 import './Header.css';
 import { useTranslation } from 'react-i18next';
-import searchIcon from '../../logo/search_icon.svg';
-import bagIcon from '../../logo/bag_icon.svg';
-import menuIcon from '../../logo/menu_icon.svg';
+import searchIcon from '../../assets/logo/search_icon.svg';
+import bagIcon from '../../assets/logo/bag_icon.svg';
+import menuIcon from '../../assets/logo/menu_icon.svg';
 import LanguagePicker from '../languagePicker/LanguagePicker';
 
 const Header = (props) => {

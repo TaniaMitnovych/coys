@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo/coys_logo_white.svg';
+import logo from '../../assets/logo/coys_logo_white.svg';
 import './Banner.css';
 import { useTranslation } from 'react-i18next';
 const Banner = () => {
