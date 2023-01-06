@@ -1,7 +1,7 @@
 import React from 'react';
-import Banner from '../banner/Banner';
-import ImageMenu from '../imageMenu/ImageMenu';
-import PhotoSliderPC from '../photoSlider/PhotoSlider';
+import Banner from '../../components/banner/Banner';
+import ImageMenu from '../../components/imageMenu/ImageMenu';
+import PhotoSliderPC from '../../components/photoSlider/PhotoSlider';
 import './MainPage.css';
 import man from '../../assets/images/man.jpeg';
 import woman from '../../assets/images/woman.png';
@@ -9,7 +9,7 @@ import news from '../../assets/images/news.jpg';
 import sale from '../../assets/images/sale.jpeg';
 import bestsellers from '../../assets/images/bestsellers.jpg';
 import { useTranslation } from 'react-i18next';
-import IndividualOrder from '../individualOrder/IndividualOrder';
+import IndividualOrder from '../../components/individualOrder/IndividualOrder';
 
 const MainPage = () => {
   const { t } = useTranslation();
