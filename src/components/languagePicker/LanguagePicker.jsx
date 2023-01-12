@@ -7,7 +7,7 @@ const LanguagePicker = (props) => {
   const uk=useRef(null);
 
   useEffect(() => {
-    let lng=window.sessionStorage.getItem("lang");
+    let lng=window.localStorage.getItem("lang");
     setLang(lng);
     if(lang==='en'){
       en.current.checked=true;
@@ -20,7 +20,7 @@ const LanguagePicker = (props) => {
 
   const handleLangChange=(event)=>{
     setLang(event.target.value);
-    window.sessionStorage.setItem("lang", event.target.value);
+    window.localStorage.setItem("lang", event.target.value);
     let location="http://localhost:3000/";
     window.location.replace(location+'?lng='+event.target.value);
   }
