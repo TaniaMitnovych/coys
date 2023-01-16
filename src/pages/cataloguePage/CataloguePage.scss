@@ -1,0 +1,26 @@
+@import '../../vars';
+
+.catalogue-page{
+  display:flex;
+  position: relative;
+  font-family: $headers-font-family;
+  margin: 0 20px;
+}
+.catalogue-menu{
+  width:30%;
+}
+
+.item-card{
+  max-width: 30%;
+  margin-left: 2%;
+  margin-bottom: 60px;
+}
+@media (max-width:800px){
+  .catalogue-page{
+    flex-direction: column;
+  }
+  .item-card{
+    margin-left: 0;
+    max-width: 45%;
+  }
+}
