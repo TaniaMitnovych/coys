@@ -1,0 +1,33 @@
+.catalogue {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalogue__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.catalogue__button {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #F0DED0;
+  height: 48px;
+  width: 223px;
+  margin: 20px 0 50px 0;
+}
+.catalogue__button:hover {
+  background-color: #58595B;
+}
+
+@media (max-width: 800px) {
+  .catalogue {
+    width: 100%;
+  }
+  .catalogue-list {
+    justify-content: space-evenly;
+  }
+}
+
+/*# sourceMappingURL=Catalogue.css.map */
