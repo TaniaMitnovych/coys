@@ -1,0 +1,27 @@
+@import '../../vars';
+
+.catalogue-menu{
+  display: flex;
+  flex-direction: column;
+  &__link{
+    background-color: transparent;
+    text-transform: uppercase;
+    color:$main-dark-color;
+    border-top: 1px solid $main-dark-color;
+    text-align: center;
+    height: 50px;
+    width:100%;
+    line-height: 50px;
+    position: relative;
+    &:hover{
+      background-color: $light-pink;
+      box-shadow: inset 0px 8px $main-light-color, inset 0px -8px $main-light-color;
+    }
+    & img{
+      position: absolute;
+      right: 0px;
+      top:50%;
+      transform: translateY(-50%);
+    }
+  }
+}

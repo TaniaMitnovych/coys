@@ -1,0 +1,27 @@
+.catalogue-menu {
+  display: flex;
+  flex-direction: column;
+}
+.catalogue-menu__link {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #58595B;
+  border-top: 1px solid #58595B;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  position: relative;
+}
+.catalogue-menu__link:hover {
+  background-color: #F0DED0;
+  box-shadow: inset 0px 8px #F9F8F6, inset 0px -8px #F9F8F6;
+}
+.catalogue-menu__link img {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*# sourceMappingURL=CatalogueMenu.css.map */
